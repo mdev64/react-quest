@@ -1,0 +1,158 @@
+.content-renderer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.content-heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 1.5rem 0 0.25rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--primary-light);
+}
+
+.content-text {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin: 0.4rem 0;
+}
+
+.content-text code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  background: var(--primary-light);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--primary);
+}
+
+/* ── Tip box ── */
+.tip-box {
+  display: flex;
+  gap: 0.75rem;
+  background: var(--tip-bg);
+  border: 1px solid var(--tip-border);
+  border-left: 4px solid var(--tip-accent);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem 0;
+  transition:
+    background 0.25s,
+    border-color 0.25s;
+}
+
+.tip-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.tip-box p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--tip-text);
+}
+
+/* ── Interactive demos ── */
+.demo-box {
+  background: linear-gradient(135deg, var(--demo-from), var(--demo-to));
+  border: 1px solid var(--demo-border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1rem 0;
+  text-align: center;
+  transition:
+    background 0.25s,
+    border-color 0.25s;
+}
+
+.demo-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--demo-title);
+  margin-bottom: 1rem;
+}
+
+.demo-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.demo-count {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  min-width: 3rem;
+  display: inline-block;
+}
+
+.demo-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.demo-btn:active {
+  transform: scale(0.9);
+}
+.demo-btn--minus {
+  background: #fee2e2;
+  color: #dc2626;
+}
+.demo-btn--plus {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.demo-hint {
+  font-size: 0.8rem;
+  color: var(--demo-hint);
+  margin-top: 0.75rem;
+}
+
+.demo-toggle-btn {
+  padding: 0.6rem 1.5rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.demo-toggle-btn:hover {
+  background: var(--primary-dark);
+}
+
+.demo-message {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 600;
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
