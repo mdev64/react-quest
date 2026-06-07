@@ -728,7 +728,7 @@ function App() {
           from { transform: rotate(0deg); }
           to   { transform: rotate(360deg); }
         }
-      `}),(0,N.jsx)(`circle`,{cx:`0`,cy:`0`,r:`2.05`,fill:t}),(0,N.jsxs)(`g`,{stroke:t,strokeWidth:`1`,fill:`none`,children:[(0,N.jsx)(`ellipse`,{rx:`11`,ry:`4.2`}),(0,N.jsx)(`ellipse`,{rx:`11`,ry:`4.2`,transform:`rotate(60)`}),(0,N.jsx)(`ellipse`,{rx:`11`,ry:`4.2`,transform:`rotate(120)`})]})]})}var $n=`ReactQuest`,er=`1.0.0`,tr=`Master React, one challenge at a time.`,nr=`https://react-quest.mdev.com.lk`;function rr(){return(0,N.jsx)(`svg`,{viewBox:`0 0 16 16`,width:`18`,height:`18`,fill:`currentColor`,"aria-hidden":`true`,children:(0,N.jsx)(`path`,{d:`M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+      `}),(0,N.jsx)(`circle`,{cx:`0`,cy:`0`,r:`2.05`,fill:t}),(0,N.jsxs)(`g`,{stroke:t,strokeWidth:`1`,fill:`none`,children:[(0,N.jsx)(`ellipse`,{rx:`11`,ry:`4.2`}),(0,N.jsx)(`ellipse`,{rx:`11`,ry:`4.2`,transform:`rotate(60)`}),(0,N.jsx)(`ellipse`,{rx:`11`,ry:`4.2`,transform:`rotate(120)`})]})]})}var $n=`ReactQuest`,er=`1.0.1`,tr=`Master React, one challenge at a time.`,nr=`https://github.com/mdev64/react-quest`;function rr(){return(0,N.jsx)(`svg`,{viewBox:`0 0 16 16`,width:`18`,height:`18`,fill:`currentColor`,"aria-hidden":`true`,children:(0,N.jsx)(`path`,{d:`M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
         0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
         -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
         .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
